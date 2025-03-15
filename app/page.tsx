@@ -5,7 +5,7 @@ import { TbBrandGithubFilled } from "react-icons/tb";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center content-center p-30">
+    <div className="flex flex-col items-center content-center py-30">
       <img src="/logo.png" alt="logo" width={100} />
       <h1 className="text-4xl pt-4 pb-2 font-[jet-bold]">
         Fahim Fuladi
