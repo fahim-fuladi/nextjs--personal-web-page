@@ -1,3 +1,4 @@
+import Link from "next/link";
 import TypingComponent from "./components/typingComponent"
 import { FaTelegramPlane, FaLinkedinIn } from "react-icons/fa";
 import { TbBrandGithubFilled } from "react-icons/tb";
@@ -13,13 +14,15 @@ export default function Home() {
         <TypingComponent />
       </div>
       <div className="flex gap-4 p-10">
-        <div>
+        <Link href={"https://t.me/fahimfooladi"}>
           <FaTelegramPlane className="m-2.5" />
-        </div>
-        <div>
+        </Link>
+        <Link href={"https://github.com/fahim-fuladi"}>
           <TbBrandGithubFilled className="m-2.5" />
-        </div>
-        <FaLinkedinIn className="m-2.5" />
+        </Link>
+        <Link href={"https://www.linkedin.com/in/fahimfuladi/"}>
+          <FaLinkedinIn className="m-2.5" />
+        </Link>
       </div>
 
       <span className="font-[jet-light] mt-22">
