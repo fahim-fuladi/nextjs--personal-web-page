@@ -21,9 +21,15 @@
   font-family: 'jet-light';
   src: url('/fonts/JETBRAINSMONO-light.TTF');
 }
+
 @font-face {
   font-family: 'jet-bold';
   src: url('/fonts/JETBRAINSMONO-bold.TTF');
+}
+
+@font-face {
+  font-family: 'jet-extra';
+  src: url('/fonts/JETBRAINSMONO-extra.TTF');
 }
 
 body {
