@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 import { FaTelegramPlane, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import Image from "next/image";
@@ -55,7 +54,7 @@ export default function Home() {
             </p>
             <h1 className="text-5xl md:text-6xl font-[jet-extra] text-white leading-tight animate-slide-in" style={{ animationDelay: '0.2s' }}>
               Fahim Fuladi<br />
-              <span className="text-2xl md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-400">Full Stack Developer</span>
+              <span className="text-2xl md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-400">Product-Minded Developer</span>
             </h1>
             <p className="text-gray-400 max-w-2xl mx-auto text-sm md:text-lg animate-slide-in font-[jet-light]" style={{ animationDelay: '0.4s' }}>
               Specialized in cross-platform and web development using Flutter and modern JavaScript frameworks.

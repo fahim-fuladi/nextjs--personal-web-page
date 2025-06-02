@@ -8,6 +8,11 @@ export const metadata: Metadata = {
   description: "Personal landing page",
 };
 
+export const metadataa: Metadata = {
+  title: "فهیم فولادی",
+  description: "صفحه اختصاصی فهیم فولادی",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
